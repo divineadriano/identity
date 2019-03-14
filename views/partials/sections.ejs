@@ -1,0 +1,190 @@
+
+	<!-- Start Section -->
+	<div class="section section-pad-sm no-pb section-bg-dark">
+		<div class="container" style="padding-bottom:50px;">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+					<h6 class="heading-sm text-center animated" data-animate="fadeInUp" data-delay=".1">TECH STACK</h6>
+					<br><br>
+                    <ul class="text-center">
+						<li class="animated" data-animate="fadeInUp" data-delay="1.4">
+							<div>
+								<img src="images/cplus.png" alt="icon">
+							</div>
+						</li>
+						<li >
+							<img src="images/ts.png" alt="icon" class="animated" data-animate="fadeInUp" data-delay="1.2">
+							<img src="images/js.png" alt="icon" class="animated" data-animate="fadeInUp" data-delay="1">
+							<img src="images/react.png" alt="icon" class="animated" data-animate="fadeInUp" data-delay=".8">
+						</li>
+						<li >
+							<img src="images/node.png" alt="icon" class="animated" data-animate="fadeInUp" data-delay=".6">
+							<img src="images/mondodb.png" alt="icon" class="animated" data-animate="fadeInUp" data-delay=".4">
+						</li>
+					</ul>
+                </div>
+            </div>
+		</div><!-- .conatiner  -->
+	</div>
+	<!-- Start Section -->
+
+
+	<!-- Start Section -->
+	<div class="section section-pad no-pb section-bg">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-10">
+					<h6 class="heading-sm text-center animated" data-animate="fadeInUp" data-delay=".1">PROJECT ARCHITECTURE</h6>
+				</div>
+			</div>
+			<br><br><br><br>
+			<div class="row align-items-center justify-content-between">
+				<div class="col-md-6">
+					<div class="res-m-btm animated" data-animate="fadeInUp" data-delay=".1">
+						<img src="id-images/NFC.png" alt="graph">
+					</div>
+				</div><!-- .col  -->
+				<div class="col-md-6 order-lg-first order-last">
+					<div class="text-block">
+						<h2 class="animated" data-animate="fadeInUp" data-delay=".3">NFC Layer</h2>
+						<p class="animated" data-animate="fadeInUp" data-delay=".4">The NFC layer is written by C++. The name of С++ project PCSC. It contains logic to
+							read/write private/public keys to NFC reader via USB and logic to communicate with
+							frontend application via socket.</p>
+						<h3>The flow to get keys:</h3>
+						<ol>
+							<li class="animated" data-animate="fadeInUp" data-delay=".4">User application requests private/public key in json format via socket.</li>
+							<li class="animated" data-animate="fadeInUp" data-delay=".5">PCSC is parsing json, waiting for card from reader and reads private/public keys from
+								reader via USB.</li>
+							<li class="animated" data-animate="fadeInUp" data-delay=".6">PCSC sends response in json format back to user application.</li>
+						</ol> <br>
+						<h4>The flow to store keys is similar​ . But we write keys to card via USB -> Reader.</h4>
+					</div>
+				</div><!-- .col  -->
+			</div><!-- .row  -->
+		</div><!-- .conatiner  -->
+	</div>
+	<!-- Start Section -->
+
+
+	<!-- Start Section -->
+	<div class="section section-pad no-pb section-bg">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-md-6">
+					<div class="res-m-btm animated" data-animate="fadeInUp" data-delay=".1">
+						<img src="id-images/front end.png" alt="graph">
+					</div>
+				</div><!-- .col  -->
+				<div class="col-md-6">
+					<div class="text-block">
+						<h2 class="animated" data-animate="fadeInUp" data-delay=".3">Front End Layer</h2>
+						<p class="animated" data-animate="fadeInUp" data-delay=".4">The Frontend layer is written on React framework. The main functionality is UI but also It
+							contains logic to pass information between User/NFC/Backend</p>
+					</div>
+				</div><!-- .col  -->
+			</div><!-- .row  -->
+		</div><!-- .conatiner  -->
+	</div>
+	<!-- Start Section -->
+
+
+	<!-- Start Section -->
+	<div class="section section-pad section-bg">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-md-5">
+					<div class="res-m-btm animated" data-animate="fadeInUp" data-delay=".1">
+						<img src="id-images/backend.png" alt="graph">
+					</div>
+				</div><!-- .col  -->
+				<div class="col-md-6 order-md-first order-last">
+					<div class="text-block">
+						<h2 class="animated" data-animate="fadeInUp" data-delay=".3">Back End Layer</h2>
+						<p class="animated" data-animate="fadeInUp" data-delay=".4">The Backend layer is nodejs server. It contains logic to:</p>
+						<ul>
+							<li>Work with MongoDB to store/get an indexed information about Users(Full Name,
+								Public Key and PSN).</li>
+							<li>Upload/Download files to ProximaX</li>
+							<li>Create a new users, create a new officers, recovery users.</li>
+						</ul>
+					</div>
+				</div><!-- .col  -->
+			</div><!-- .row  -->
+		</div><!-- .conatiner  -->
+	</div>
+	<!-- Start Section -->
+
+
+
+
+
+	<!-- Start Section -->
+	<div class="section section-pad section-bg-alt" id="faq">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7">
+				    <div class="section-head-s6">
+                        <h6 class="heading-sm-s2 animated" data-animate="fadeInUp" data-delay=".1">Faq</h6>
+                        <h2 class="section-title-s6 animated" data-animate="fadeInUp" data-delay=".2">Frequently asked questions</h2>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".3">Below we’ve provided a bit of ICO, ICO Token, cryptocurrencies, and few others. If you have any other questions, please get in touch using the contact form below.</p>
+                    </div>
+                    <div class="gaps size-1x"></div>
+				</div>
+			</div>
+			
+				<div class="col-md-4">
+                    <div class="fake-class animated" data-animate="fadeInUp" data-delay=".5">
+                        <img src="images/jasmine/graph-jasmine-e.png" alt="graph">
+                    </div>
+				</div><!-- .col -->
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</div>
+	<!-- End Section -->
+
+
+	<!-- Start Section -->
+	<div class="section section-pad-md section-bg" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+				    <div class="section-head-s6">
+                        <h6 class="heading-sm-s2 animated" data-animate="fadeInUp" data-delay=".1">Contact</h6>
+                        <h2 class="section-title-s6 animated" data-animate="fadeInUp" data-delay=".2">Get In Touch</h2>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".3">Any question? Reach out to us and we’ll get back to you shortly.</p>
+                    </div>
+					<ul class="contact-info-alt">
+						<li class="animated" data-animate="fadeInUp" data-delay=".4"><em class="fa fa-phone"></em><span>+44 0123 4567</span></li>
+						<li class="animated" data-animate="fadeInUp" data-delay=".5"><em class="fa fa-envelope"></em><span>info@yourcompany.com</span></li>
+						<li class="animated" data-animate="fadeInUp" data-delay=".6"><em class="fa fa-paper-plane"></em><span>Join us on Telegram</span></li>
+					</ul>
+				</div><!-- .col -->
+				<div class="col-lg-4 offset-lg-1">
+				    <div class="gaps size-3x d-none d-md-block"></div>
+				    <div class="gaps size-2x"></div>
+					<form id="contact-form" class="form-message form-message-s2 text-left" action="form/contact.php" method="post">
+						<div class="form-results"></div>
+						<div class="input-field animated" data-animate="fadeInUp" data-delay=".7">
+							<input name="contact-name" type="text" placeholder="Your Name" class="input-border required">
+						</div>
+						<div class="input-field animated" data-animate="fadeInUp" data-delay=".8">
+							<input name="contact-email" type="email" placeholder="Your Email" class="input-border required email">
+						</div>
+						<div class="input-field animated" data-animate="fadeInUp" data-delay=".9">
+							<textarea name="contact-message" placeholder="Your Message" class="txtarea input-border required"></textarea>
+						</div>
+						<input type="text" class="d-none" name="form-anti-honeypot" value="">
+						<div class="input-field animated" data-animate="fadeInUp" data-delay="1.0">
+							<button type="submit" class="btn">Submit</button>
+						</div>
+					</form>
+				</div><!-- .col -->
+				<div class="col-lg-4 align-self-center">
+                    <div class="fake-class animated" data-animate="fadeInUp" data-delay="1.1">
+                        <img src="images/jasmine/graph-jasmine-f.png" alt="graph">
+                    </div>
+				</div><!-- .col -->
+			</div>
+		</div>
+	</div>
+
