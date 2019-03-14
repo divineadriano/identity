@@ -609,10 +609,10 @@ a:hover, a:focus, a:active { color: #554fff; }
 .io-lungwort .token-details-info { color: #f6388a; }
 .io-lungwort .token-stage { background: #ffffff; }
 .io-lungwort .token-stage-title { background: #5d47ff; }
-.io-lungwort .token-stage-pre { background: #735fff; }
+.io-lungwort .token-stage-pre { background: #0a5275; }
 .io-lungwort .token-stage-one { background: #6853ff; }
-.io-lungwort .token-stage-date { border-color: #4631e0; }
-.io-lungwort .token-stage-info { border-color: #4631e0; }
+.io-lungwort .token-stage-date { border-color: #0a5275; }
+.io-lungwort .token-stage-info { border-color: #0a5275; }
 .io-lungwort .token-stage-bonus { color: #f6388a; }
 .io-lungwort .token-stage-cap { color: #d1ccff; }
 .io-lungwort .token-stage-amount { color: #fff; }
