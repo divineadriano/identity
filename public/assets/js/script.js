@@ -472,7 +472,7 @@
 	}
     
 	// particlesJS
-	var $particles_js = $('#particles-js'), $particles_color = "#2b56f5", $particles_color_alt = "#00c0fa" ;
+	var $particles_js = $('#particles-js'), $particles_color = "#16a6c3", $particles_color_alt = "#00c0fa" ;
     if ($body_m.hasClass('io-zinnia')) { $particles_color = "#fff", $particles_color_alt = "#fff"; }
 	if ($particles_js.length > 0 ) {
 		particlesJS('particles-js',
