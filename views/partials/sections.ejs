@@ -46,18 +46,18 @@
 				</div><!-- .col  -->
 				<div class="col-md-6 order-lg-first order-last">
 					<div class="text-block">
-						<h2 class="animated" data-animate="fadeInUp" data-delay=".3">NFC Layer</h2>
-						<p class="animated" data-animate="fadeInUp" data-delay=".4">The NFC layer is written by C++. The name of С++ project PCSC. It contains logic to
+						<h2 class="animated" data-animate="fadeInUp" data-delay=".2">NFC Layer</h2>
+						<p class="animated" data-animate="fadeInUp" data-delay=".3">The NFC layer is written by C++. The name of С++ project PCSC. It contains logic to
 							read/write private/public keys to NFC reader via USB and logic to communicate with
 							frontend application via socket.</p>
-						<h3>The flow to get keys:</h3>
+						<h3 class="animated" data-animate="fadeInUp" data-delay=".4">The flow to get keys:</h3>
 						<ol>
-							<li class="animated" data-animate="fadeInUp" data-delay=".4">User application requests private/public key in json format via socket.</li>
-							<li class="animated" data-animate="fadeInUp" data-delay=".5">PCSC is parsing json, waiting for card from reader and reads private/public keys from
+							<li class="animated" data-animate="fadeInUp" data-delay=".6">User application requests private/public key in json format via socket.</li>
+							<li class="animated" data-animate="fadeInUp" data-delay=".7">PCSC is parsing json, waiting for card from reader and reads private/public keys from
 								reader via USB.</li>
-							<li class="animated" data-animate="fadeInUp" data-delay=".6">PCSC sends response in json format back to user application.</li>
+							<li class="animated" data-animate="fadeInUp" data-delay=".8">PCSC sends response in json format back to user application.</li>
 						</ol> <br>
-						<h4>The flow to store keys is similar​ . But we write keys to card via USB -> Reader.</h4>
+						<h4 class="animated" data-animate="fadeInUp" data-delay="1">The flow to store keys is similar​ . But we write keys to card via USB -> Reader.</h4>
 					</div>
 				</div><!-- .col  -->
 			</div><!-- .row  -->
@@ -102,10 +102,10 @@
 						<h2 class="animated" data-animate="fadeInUp" data-delay=".3">Back End Layer</h2>
 						<p class="animated" data-animate="fadeInUp" data-delay=".4">The Backend layer is nodejs server. It contains logic to:</p>
 						<ul>
-							<li>Work with MongoDB to store/get an indexed information about Users(Full Name,
+							<li class="animated" data-animate="fadeInUp" data-delay=".6">Work with MongoDB to store/get an indexed information about Users(Full Name,
 								Public Key and PSN).</li>
-							<li>Upload/Download files to ProximaX</li>
-							<li>Create a new users, create a new officers, recovery users.</li>
+							<li class="animated" data-animate="fadeInUp" data-delay=".8">Upload/Download files to ProximaX</li>
+							<li class="animated" data-animate="fadeInUp" data-delay="1">Create a new users, create a new officers, recovery users.</li>
 						</ul>
 					</div>
 				</div><!-- .col  -->
@@ -144,7 +144,7 @@
 							</div>
 						</div>
 						<div class="col-sm-3">
-							<div class="token-stage animated" data-animate="fadeInUp" data-delay=".4">
+							<div class="token-stage animated" data-animate="fadeInUp" data-delay=".6">
 								<div class="token-stage-title token-stage-pre text-center">Typescript, Javascript</div>
 								<div class="token-stage-date" style="color:black;">
 									<ul>
@@ -155,7 +155,7 @@
 							</div>
 						</div>
 						<div class="col-sm-3">
-							<div class="token-stage animated" data-animate="fadeInUp" data-delay=".4">
+							<div class="token-stage animated" data-animate="fadeInUp" data-delay=".8">
 								<div class="token-stage-title token-stage-pre text-center">Node.js</div>
 								<div class="token-stage-date" style="color:black;">
 									<ul>
@@ -169,7 +169,7 @@
 							</div>
 						</div>
 						<div class="col-sm-3">
-							<div class="token-stage animated" data-animate="fadeInUp" data-delay=".4">
+							<div class="token-stage animated" data-animate="fadeInUp" data-delay="1">
 								<div class="token-stage-title token-stage-pre text-center">OTHER</div>
 								<div class="token-stage-date" style="color:black;">
 									<ul>
