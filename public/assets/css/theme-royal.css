@@ -649,7 +649,7 @@ a:hover, a:focus, a:active { color: #9125ff; }
 .io-lungwort .accordion-s2 .card-header a:hover { color: #16a2ff; }
 .io-lungwort .accordion-s2 .plus-minus .ti { color: #16a2ff; }
 .io-lungwort .accordion-s2 .collapsed .plus-minus .ti { color: rgba(22, 162, 255, 0.5); }
-.io-lungwort .subscribe-box { background-image: linear-gradient(-135deg, #3da3bf 0%, #1f77ab 100%); }
+.io-lungwort .subscribe-box { background-image: linear-gradient(-135deg, #0a5275 0%, #0a5275 100%); }
 .io-lungwort .subscribe-section-s2:before { background: #141b1f; }
 .io-lungwort .loader-section { background: #f9f9f9; }
 

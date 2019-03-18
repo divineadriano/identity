@@ -2825,7 +2825,7 @@ label.error { display: none !important; font-size: 13px; margin-top: 5px; color:
 .io-lungwort .input-round-s2::-moz-placeholder { opacity: .8; color: rgba(110, 126, 152, 0.7); }
 .io-lungwort .input-round-s2:-ms-input-placeholder { opacity: .8; color: rgba(110, 126, 152, 0.7); }
 .io-lungwort .input-round-s2::-webkit-input-placeholder { opacity: .8; color: rgba(110, 126, 152, 0.7); }
-.io-lungwort .subscribe-box { background-image: linear-gradient(-135deg, #3da3bf 0%, #1f77ab 100%); }
+.io-lungwort .subscribe-box { background-image: linear-gradient(-135deg, #0a5275 0%, #0a5275 100%); }
 .io-lungwort .subscribe-section-s2:before { top: 50%; height: 50%; background: #141b1f; }
 .io-lungwort .loader-section { background: #f9f9f9; }
 .io-lungwort .subscribe-results { padding: 7px 20px; }
