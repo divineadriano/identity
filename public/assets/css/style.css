@@ -3832,4 +3832,22 @@ label.error { display: none !important; font-size: 13px; margin-top: 5px; color:
     width:32% !important;
   }
 }
+
+.image_full{
+  display:block;
+ }
+
+.image_mobile{
+ display:none;
+}
+
+@media only screen and (max-width: 479px) {
+ .image_full{
+  display:none;
+ }
+
+ .image_mobile{
+  display:block;
+ }
+}
 /** END */
