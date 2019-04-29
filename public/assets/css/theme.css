@@ -77,7 +77,7 @@ a:hover, a:focus, a:active { color: #8255fd; }
 
 .text-block ul:not(.btns) li:before { background: #35b8c3; }
 
-.section-head .section-title span, .section-head .section-title:before { color: rgba(122, 15, 255, 0.06); }
+.section-head .section-title span, .section-head .section-title:before { color: rgba(10, 173, 224, 0.06); }
 .section-head-s2:before { background: #35b8c3; }
 
 .heading-animation { border-top-color: #16a6c3; border-left-color: #16a6c3; }
